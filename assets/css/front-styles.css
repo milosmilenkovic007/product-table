@@ -1,0 +1,49 @@
+/**
+ * Product Specifications Plugin
+ * Main Admin Styles
+*/
+.mmspecs-product-table .mmspecs-product-table-group {
+  margin-bottom: 20px;
+}
+.mmspecs-product-table .mmspecs-product-table-group .group-title {
+  color: #2196f3;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.mmspecs-product-table table {
+  border-spacing: 0;
+  border-collapse: separate;
+  width: 100%;
+  margin: 0;
+}
+.mmspecs-product-table table tr th,
+.mmspecs-product-table table tr td {
+  vertical-align: middle;
+  background-color: #f7f7f7;
+  padding: 1rem 1.25rem;
+  color: #4b4b4b;
+  font-size: 1.083333333333333rem;
+  font-weight: 400;
+  border-bottom: 1px solid #fff;
+}
+.mmspecs-product-table table tr th:first-child,
+.mmspecs-product-table table tr td:first-child {
+  width: 25%;
+  background-color: #f0f0f0;
+}
+.mmspecs-product-table table tr th svg,
+.mmspecs-product-table table tr td svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 1em;
+  height: 1em;
+}
+.mmspecs-product-table table tr th.yes svg,
+.mmspecs-product-table table tr td.yes svg {
+  fill: #4db051;
+}
+.mmspecs-product-table table tr th.no svg,
+.mmspecs-product-table table tr td.no svg {
+  fill: #ff6a6c;
+}
